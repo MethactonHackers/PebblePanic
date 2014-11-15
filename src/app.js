@@ -17,24 +17,24 @@ main.show();
 
 main.on('click', 'up', function(e) {
   var card = new UI.Card();
-  card.title('A Card');
-  card.subtitle('Is a Window');
-  card.body('The simplest window type in Pebble.js.');
+  card.title('Ambulance');
+  //card.subtitle('Is a Window');
+  card.body('Called Ambulance');
   card.show();
 });
 
 main.on('click', 'select', function(e) {
   var card = new UI.Card();
-  card.title('A Card');
-  card.subtitle('Is a Window');
-  card.body('The simplest window type in Pebble.js.');
+  card.title('Contacts');
+  //card.subtitle('Is a Window');
+  card.body('Messaged Emergency Contacts');
   card.show();
 });
 
 main.on('click', 'down', function(e) {
   var card = new UI.Card();
-  card.title('A Card');
-  card.subtitle('Is a Window');
-  card.body('The simplest window type in Pebble.js.');
+  card.title('Fire/Ambulance');
+  //card.subtitle('Is a Window');
+  card.body('Called fire and ambulance');
   card.show();
 });
