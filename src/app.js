@@ -8,7 +8,7 @@ var UI = require('ui');
 
 var main = new UI.Card({
   title: 'PebblePanic',
-  icon: 'images/menu_icon.png',
+  //icon: 'images/menu_icon.png',
   subtitle: 'vDev',
   body: 'Press UP for ambulance /nPress Select to text contacts /nPress Down for Fire/Police'
 });
@@ -17,8 +17,8 @@ main.show();
 
 main.on('click', 'up', function(e) {
   var card = new UI.Card();
-  card.title('Ambulance');
-  //card.subtitle('Is a Window');
+  //card.title('Ambulance');
+  card.subtitle('Ambulance');
   card.body('Called Ambulance');
   card.show();
 });
@@ -33,7 +33,7 @@ main.on('click', 'select', function(e) {
 
 main.on('click', 'down', function(e) {
   var card = new UI.Card();
-  card.title('Fire/Ambulance');
+  card.title('Fire/Police');
   //card.subtitle('Is a Window');
   card.body('Called fire and ambulance');
   card.show();
