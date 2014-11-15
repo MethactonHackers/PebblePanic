@@ -10,7 +10,7 @@ var main = new UI.Card({
   title: 'PebblePanic',
   //icon: 'images/menu_icon.png',
   subtitle: 'vDev',
-  body: 'Press UP for ambulance /nPress Select to text contacts /nPress Down for Fire/Police'
+  body: 'UP - ambulance \nSelect - text contacts \nDown - Fire/Police'
 });
 
 main.show();
